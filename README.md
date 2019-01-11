@@ -1,2 +1,4 @@
 # EuGenoSuite
 Proteomics Multi-Algorithmic Tool
+
+EuGenoSuite is an automated pipeline for proteogenomic analysis from mass spectrometry proteomics data using open source peptide identification algorithms. By applying proteomic search by multiple algorithms, EuGenoSuite provides better coverage of proteome at fixed FDR. Proteomic analysis features relevant to eukaryotic gene models like protein inference (important to analyse transcriptomic data where isoforms will have shared peptides) are added on top of the peptide searches and result integration. Features like protein level FDR calculation and result filtering is key feature of this application. This command line application can be used as an independent proteomic data search tool for peptide and protein identification using OMSSA and X!Tandem algorithms. It can also be integrated to Eukaryotic proteogenomic pipelines to enable peptide identifications from extra-large genomic and transcriptomic databases.
